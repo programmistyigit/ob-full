@@ -44,6 +44,7 @@ export const runUserBotForUser = async (
     env.API_HASH,
     {
       connectionRetries: 5,
+      deviceModel: "OblivionLog"
     }
   );
 
